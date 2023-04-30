@@ -1,0 +1,3 @@
+kun korttia painaa, muuttuu sen kuva 1_1.png:ksi
+
+self.buttons[num].configure(image=self.images[0])
