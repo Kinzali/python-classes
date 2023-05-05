@@ -1,0 +1,21 @@
+1) Luo ElectricCar-luokka, joka perii Car-luokan.
+2) Lisää ElectricCar-luokan konstruktoriin (instanssin=olion) attribuutti nimeltään
+battery_size. Aseta sen oletusarvoksi 75.
+
+2) Lisää ElectricCar-luokalle metodi describe_battery.
+Metodi tulostaa "This car has {self.battery_size} -kWh battery."
+
+3) Luo ec-niminen olio ElectricCar-luokasta, ja kutsu instanssin 
+describe_battery -metodia.
+--------------------------------------------------------------------
+4) Luo luokka Battery, ja aseta konstruktorissa self.battery_size=75.
+
+5) Siirrä describe_battery()-metodi Battery-luokkaan ja
+poista ElectricCar-luokan konstruktorista battery_size -attribuutti.
+
+6) Luo ElectricCar-konstruktorissa battery-niminen olio
+Battery-luokasta (jota ElectricCar-luokan olio voi käyttää). Vie battery-oliolle 75 parametrina.
+
+7) Luo tesla-niminen olio ElectricCar-luokasta
+
+8) Kutsu teslan describe_battery()-metodia. Miten tämä onnistuu?

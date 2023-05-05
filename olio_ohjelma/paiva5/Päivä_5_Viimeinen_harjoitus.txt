@@ -1,0 +1,26 @@
+Create two classes: Car and ElectricCar. ElectricCar does NOT inherit from Car class.
+Here's constructor of Car class:
+ def __init__(self,make,model,year,isElectric=False):
+ Make condition to Car class that if isElectric==True or make=="Tesla", then
+ make eCar instance of ElectricCar class with last parameter True.
+ Otherwise also make eCar instance, but with last parameter False.
+
+ Here's constructor of ElectricCar class:
+ def __init__(self,make,model,year,isTesla=True):
+
+ In ElectricCar class make condition that if isTesla==True, call method getTeslaInfo(True),
+ otherwise call same method with(False).
+
+ getTeslaInfo method prints either ..make..model..year is a Tesla car or
+ ...make ..model.. year is an electric car, but not Tesla.
+
+
+
+example output:
+
+myCar = Car("Tesla","Model S", 2019)
+myCar2 = Car("Electra","Type X", 2000,True)
+myCar3 = Car("Ford","Focus",2000)
+#Tesla Model S is indeed a Tesla.
+#Electra Type X is an electric car, but not Tesla.
+#Ford Focus 2000 is a normal car.

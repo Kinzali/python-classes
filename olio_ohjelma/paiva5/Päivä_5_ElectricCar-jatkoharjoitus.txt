@@ -1,0 +1,18 @@
+Lisää Battery-luokkaan metodi upgrade_battery().
+Metodin tulee tarkastaa battery_size:n arvo, ja asettaa
+se 100:ksi mikäli arvo ei vielä ole 100.
+
+Luo myös metodi get_range() joka sijoittaa available_km 
+-muuttujaan ajettavan kilometrimäärän kertomalla
+ battery_size 3.5:llä ja palauttamalla tuloksen.
+
+
+Luo olio tesla ElectricCar-luokasta 
+(käytä oletusarvoa battery_size:ssa eli älä anna parametrina).
+Luo muuttuja kilometers, kutsu tesla-olion get_range:a, ja 
+aseta metodin palauttama arvo kms-muuttujaan.
+
+Tulosta tämän jälkeen kilometers-muuttuja.
+Kutsu tesla-olion upgrade_battery-metodia, ja tulosta
+tämän jälkeen uudelleen kilometers-muuttuja.
+Nyt tulisi tulostua eri kilometrimäärä.

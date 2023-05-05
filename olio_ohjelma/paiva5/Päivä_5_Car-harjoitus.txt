@@ -1,0 +1,28 @@
+
+1) Luo luokka Car, aseta "konstruktorissa" (__init__()-metodissa) 
+  parametrina tulevat merkki, malli,valmistusvuosi, ja kilometrit olion attribuuteiksi.
+
+2) Luo Car-luokalle get_km-metodi, joka printtaa 
+  ajetut kilometrit. Mikäli kilometrejä ei syötetä parametrina,
+  asetetaan kilometrit nollaksi init:issä.
+
+3) Luo Car-luokalle run-metodi, joka printtaa "Car running"
+
+4) Luo Car-luokasta Audi-luokka, joka perii Car-luokan. 
+  Konstruktori saa parametreina m ja km
+5) Aseta konstrukorissa attribuutit:"Audi", "A6", 2000, 200000.
+
+6) Luo Audi-luokalle oma run-metodinsa (yliajaa Car-luokan metodin),
+joka tulostaa "Audi running" (Audi tulee tulla merkki-muuttujasta)
+
+7) Luo vastaava Skoda-luokka kuin 6-kohdassa.
+
+7) Luo vielä samanlainen VW-luokka, 
+  mutta älä tee sille run-metodia
+
+8) Luo createCars()-funktio, joka :
+  - luo oliot audi, skoda, sekä vW
+  - printtaa olioiden km-määrät yhteenlaskettuna
+  - kutsuu kunkin luokan run-metodia.
+
+9) Kutsu createCars-funktiota.
